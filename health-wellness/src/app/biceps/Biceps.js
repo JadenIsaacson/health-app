@@ -1,0 +1,35 @@
+import React from "react";
+
+const Biceps = () => {
+    return (
+        <div  className="biceps-all">
+                
+            <div className="header"><h1>Biceps</h1></div>
+        <div className="container">
+            
+        <div className="column1"><h2 >Workout Plan:</h2>
+            <ul>
+            <li>Pec deck: 4 set of 20 reps</li>
+            <li>Bench Press(Flat): 4 sets of 8-12 reps</li>
+            <li>Dumbell Press(Flat): 5 sets: 20/15/12/10/F</li>
+            <li>Incline Bench Press: 4 sets: 15/10/8/F</li>
+            <li>Push Ups: 2 or 3 sets to Failure</li>
+            </ul>
+        </div>
+           <div  className="column3"> <h2>Tips:</h2>
+           <li>For your first Workout, stretch inbetween sets</li>
+           <li>Foucs on the squeeze/flex on each rep, NOT THE WEIGHT!</li>
+           <li>If you feel pressure in any other muscle, lower the weight and foucs on finding the mind to muscle connection</li>
+           <li>Keep your rest time inbetween sets to 60 sec</li>
+           </div>
+
+           <div className="column2"> <h2>Anatomy</h2> 
+           <img className="pic" src='https://www.mz-store.com/blog/wp-content/uploads_en/2018/10/chest.jpg'></img></div>
+
+           </div>
+        
+        </div>
+    )
+}
+
+export default Biceps;
